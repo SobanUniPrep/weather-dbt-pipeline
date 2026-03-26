@@ -1,0 +1,6 @@
+id,name,country,latitude,longitude,timezone
+1,Prague,CZ,50.08,14.44,Europe/Prague
+2,London,GB,51.51,-0.13,Europe/London
+3,New York,US,40.71,-74.01,America/New_York
+4,Tokyo,JP,35.69,139.69,Asia/Tokyo
+5,Sydney,AU,-33.87,151.21,Australia/Sydney
