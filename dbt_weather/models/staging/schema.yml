@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: stg_weather
+    description: "Staged weather data from Open-Meteo API"
+    columns:
+      - name: city_name
+        tests:
+          - not_null
+      - name: measured_at
+        tests:
+          - not_null
+      - name: weather_code
+        tests:
+          - not_null
+      - name: temperature_c
+        tests:
+          - not_null
+
+  - name: stg_cities
+    columns:
+      - name: city_id
+        tests:
+          - unique
+          - not_null
+      - name: city_name
+        tests:
+          - unique
+          - not_null
