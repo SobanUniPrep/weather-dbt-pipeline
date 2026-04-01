@@ -4,3 +4,4 @@ requests
 tenacity
 python-dotenv
 pandas
+dbt-snowflake
